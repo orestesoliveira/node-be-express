@@ -1,0 +1,7 @@
+<h1>Lista de posts:</h1>
+{{#each posts}}
+    <h1>{{this.titulo}}</h1>
+    <p>{{this.conteudo}}</p>
+    <pre>{{@index}}: {{this}}</pre> <!-- This will print the current context -->
+    <hr>
+{{/each}}
